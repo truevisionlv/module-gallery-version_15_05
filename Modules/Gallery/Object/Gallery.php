@@ -1,14 +1,14 @@
 <?php
-namespace neTpyceB\TMCms\Modules\Gallery\Object;
-use neTpyceB\TMCms\Files\FileSystem;
-use neTpyceB\TMCms\Modules\CommonObject;
-use neTpyceB\TMCms\Modules\Gallery\ModuleGallery;
-use neTpyceB\TMCms\Modules\Images\Object\ImageCollection;
+namespace Modules\Gallery\Object;
+use Files\FileSystem;
+use Modules\CommonObject;
+use Modules\Gallery\ModuleGallery;
+use Modules\Images\Object\ImageCollection;
 
 
 /**
  * Class Gallery
- * @package neTpyceB\TMCms\Modules\Gallery\Object
+ * @package Modules\Gallery\Object
  *
  * @method string getTitle()
  * @method bool getActive()

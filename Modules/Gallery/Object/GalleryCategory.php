@@ -1,10 +1,10 @@
 <?php
-namespace neTpyceB\TMCms\Modules\Gallery\Object;
-use neTpyceB\TMCms\Modules\CommonObject;
+namespace Modules\Gallery\Object;
+use Modules\CommonObject;
 
 /**
  * Class GalleryCategory
- * @package neTpyceB\TMCms\Modules\Gallery\Object
+ * @package Modules\Gallery\Object
  *
  * @method string getTitle()
  * @method bool getActive()

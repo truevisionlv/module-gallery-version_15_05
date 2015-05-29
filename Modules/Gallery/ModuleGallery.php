@@ -1,24 +1,24 @@
 <?php
-namespace neTpyceB\TMCms\Modules\Gallery;
+namespace Modules\Gallery;
 
-use neTpyceB\TMCms\Admin\Messages;
-use neTpyceB\TMCms\Admin\Users;
-use neTpyceB\TMCms\DB\SQL;
-use neTpyceB\TMCms\Files\FileSystem;
-use neTpyceB\TMCms\HTML\BreadCrumbs;
-use neTpyceB\TMCms\HTML\Cms\CmsForm;
-use neTpyceB\TMCms\HTML\Cms\Columns;
-use neTpyceB\TMCms\HTML\Cms\CmsGallery as GalleryHtml;
-use neTpyceB\TMCms\HTML\Cms\Element\CmsHtml;
-use neTpyceB\TMCms\HTML\Cms\Widget\FileManager;
-use neTpyceB\TMCms\Modules\CommonObject;
-use neTpyceB\TMCms\Modules\Gallery\Object\Gallery;
-use neTpyceB\TMCms\Modules\Gallery\Object\GalleryCategoryCollection;
-use neTpyceB\TMCms\Modules\Gallery\Object\GalleryCollection;
-use neTpyceB\TMCms\Modules\Images\ModuleImages;
-use neTpyceB\TMCms\Modules\Images\Object\Image;
-use neTpyceB\TMCms\Modules\Images\Object\ImageCollection;
-use neTpyceB\TMCms\Modules\IModule;
+use Admin\Messages;
+use Admin\Users;
+use DB\SQL;
+use Files\FileSystem;
+use HTML\BreadCrumbs;
+use HTML\Cms\CmsForm;
+use HTML\Cms\Columns;
+use HTML\Cms\CmsGallery as GalleryHtml;
+use HTML\Cms\Element\CmsHtml;
+use HTML\Cms\Widget\FileManager;
+use Modules\CommonObject;
+use Modules\Gallery\Object\Gallery;
+use Modules\Gallery\Object\GalleryCategoryCollection;
+use Modules\Gallery\Object\GalleryCollection;
+use Modules\Images\ModuleImages;
+use Modules\Images\Object\Image;
+use Modules\Images\Object\ImageCollection;
+use Modules\IModule;
 
 defined('INC') or exit;
 
